@@ -5,7 +5,7 @@ import "../styles/components/socialnetworks.sass";
 const socialNetworks = [
   { name: "linkedin", icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/raphael-freitas-a39974b6/" },
   { name: "github", icon: <FaGithub />, link: "https://github.com/RaphaelBACPR" },
-  { name: "instagram", icon: <FaInstagram />, link: "https://www.linkedin.com/in/raphael-freitas-a39974b6/" },
+  { name: "instagram", icon: <FaInstagram />, link: "https://instagram.com/raphaelsfreitas" },
 ];
 
 const SocialNetworks = () => {
