@@ -1,0 +1,59 @@
+@use '../variables'
+@use '../mixins'
+
+.tech-container
+    margin-bottom: 1rem
+
+    .tech-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+
+        .tech-card
+            @include mixins.center
+            gap: 1rem
+            padding: 1rem
+            border: 1px solid #333
+            width: 45%
+            border-radius: variables.$card-border-radius
+
+        h3
+            color: variables.$text-color
+            margin-bottom: 1rem
+
+        .tech-infos
+            .infos
+                .star
+                    > svg
+                        color: yellow
+        li
+             list-style: none        
+
+        svg
+            @include mixins.font-svg(6rem)
+
+        #html
+            svg
+                color: #e44d26
+
+        #css
+            svg
+                color: #1572b6
+        #js
+            svg
+                color: #f0db4f
+        #php
+            svg
+                color: #7377AD
+        #mysql
+            svg
+                color: #00618a
+        #react
+            svg
+                color: #61dafb
+        #sass
+            svg
+                color: #C55D90
+        #excel
+            svg
+                color: #1A7343
