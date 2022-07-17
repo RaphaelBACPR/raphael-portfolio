@@ -1,7 +1,7 @@
 {
   "name": "portifolio",
   "private": true,
-  "homepage": "https://RaphaelBACPR.github.io/raphael-portfolio/",
+  "homepage": "https://raphaelbacpr.github.io/raphael-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
