@@ -6,6 +6,7 @@
     background: variables.$gradient
     text-decoration: none
     border-radius: 3rem
+    margin-top: 1rem
 
 @mixin center
     display: flex
@@ -20,3 +21,7 @@
 
 @mixin font-svg($tamanho)
     font-size: $tamanho
+
+@mixin mobile
+    @media screen and (max-width: 425px)
+        @content

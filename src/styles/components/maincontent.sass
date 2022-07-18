@@ -6,10 +6,14 @@
     flex: 2 1 0
     border-radius: variables.$container-border-radius
     padding: 2.5rem
+    gap: 1rem
 
     section
         display: flex
         flex-direction: column
+        margin-bottom: 1rem
+        @include mixins.mobile
+            margin-bottom: 1.6rem
     
     h2
         color: variables.$text-color
@@ -26,6 +30,7 @@
         color: variables.$text-color-secondary
         margin-bottom: 1rem
         line-height: 1.4rem
+        text-align: justify
 
     .btn
         @include mixins.btn
